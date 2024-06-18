@@ -1,0 +1,11 @@
+POST http://localhost:3333/tasks
+Content-type: application/json
+
+{
+    "id": "3",
+    "description": "task 3"
+}
+
+###
+GET http://localhost:3333/tasks
+Content-Type: application/json
