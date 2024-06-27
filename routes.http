@@ -2,10 +2,21 @@ POST http://localhost:3333/tasks
 Content-type: application/json
 
 {
-    "id": "3",
-    "description": "task 3"
+    "title": "task 4"
 }
 
 ###
 GET http://localhost:3333/tasks
+Content-Type: application/json
+
+###
+PUT http://localhost:3333/tasks/36a591e6-6130-4b94-99e4-f14af6525e3d
+Content-Type: application/json 
+
+{
+    "title": "Play videogame"
+}
+
+###
+DELETE http://localhost:3333/tasks/2b58996c-cfc5-4282-8484-d173252032fd
 Content-Type: application/json
